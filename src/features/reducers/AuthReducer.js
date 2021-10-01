@@ -1,6 +1,6 @@
 export const authReducer = (state, action) => {
     switch (action.type) {
-        case 'LOGIN':
+        case 'SET_AUTH':
             return {
                 ...state,
                 token: action.token,
